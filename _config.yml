@@ -1,0 +1,10 @@
+# Site settings
+title: Joey Li Photography
+description: The photography portfolio of Joey Li.
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# collections
+collections:
