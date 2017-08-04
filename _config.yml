@@ -1,6 +1,5 @@
 # Site settings
-title: Joey Li Photography
-description: The photography portfolio of Joey Li.
+title: Joey Li
 
 # Build settings
 markdown: kramdown
@@ -8,3 +7,9 @@ permalink: pretty
 
 # collections
 collections:
+  people:
+    output: true
+    permalink: /:collection/:name/
+  places:
+    output: true
+    permalink: /:collection/:name/
