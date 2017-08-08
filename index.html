@@ -1,19 +1,19 @@
 ---
 layout: default
 ---
-<div class="six columns">
+<div class="index-columns">
   {% assign posts = (site.people | sort: 'position') %}
   {% for post in posts %}
-    <div class="collection-item">
+    <div class="index-item">
       <a href="{{ post.url }}"><img src="{{ post.url }}{{ post.header-image }}" alt="{{ post.header-image }}"></a>
     </div>
   {% endfor %}
 </div>
 
-<div class="six columns">
+<div class="index-columns">
   {% assign posts = (site.places | sort: 'position') %}
   {% for post in posts %}
-    <div class="collection-item">
+    <div class="index-item">
       <a href="{{ post.url }}"><img src="{{ post.url }}{{ post.header-image }}" alt="{{ post.header-image }}"></a>
     </div>
   {% endfor %}
