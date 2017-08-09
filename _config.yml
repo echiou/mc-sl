@@ -1,5 +1,5 @@
 # Site settings
-title: Joey Li
+title: Joey Li Photography
 
 # Build settings
 markdown: kramdown
@@ -13,3 +13,15 @@ collections:
   places:
     output: true
     permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "picture"
+  - scope:
+      path: ""
+      type: "places"
+    values:
+      layout: "picture"

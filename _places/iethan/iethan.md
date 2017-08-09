@@ -1,4 +1,4 @@
 ---
-image: fethan.jpg
+image: iethan.jpg
 position: 2
 ---

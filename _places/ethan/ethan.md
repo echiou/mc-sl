@@ -1,4 +1,4 @@
 ---
 image: ethan.jpg
-position: 1
+position: 8
 ---

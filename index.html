@@ -1,20 +1,25 @@
 ---
 layout: default
 ---
-<div class="index-columns">
-  {% assign posts = (site.people | sort: 'position') %}
-  {% for post in posts %}
-    <div class="index-item">
-      <a href="{{ post.url }}"><img src="{{ post.url }}{{ post.header-image }}" alt="{{ post.header-image }}"></a>
-    </div>
-  {% endfor %}
+<div class="twelve columns">
+  <p class="subheader">
+  The portfolio of Joey Li, a Baltimore-based photographer.
+  </p>
 </div>
 
-<div class="index-columns">
-  {% assign posts = (site.places | sort: 'position') %}
-  {% for post in posts %}
-    <div class="index-item">
-      <a href="{{ post.url }}"><img src="{{ post.url }}{{ post.header-image }}" alt="{{ post.header-image }}"></a>
+<div class="container index-navigation">
+  <div class="row index-grid">
+    <div class="index-left">
+      <a href="/people" class="nav-link">
+        <img src="/images/people.jpg">
+        <p class="index-link-text">people</p>
+      </a>
     </div>
-  {% endfor %}
+    <div class="index-right">
+      <a href="/places" class="nav-link">
+        <img src="/images/places.jpg">
+        <p class="index-link-text">places</p>
+      </a>
+    </div>
+  </div>
 </div>

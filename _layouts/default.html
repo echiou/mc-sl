@@ -13,7 +13,10 @@
         </div>
       </div>
     </main>
-    {% include footer.html %}
+
+    {% if page.layout != 'picture' %}
+      {% include footer.html %}
+    {% endif %}
 
   </body>
 
