@@ -2,24 +2,29 @@
 layout: default
 ---
 <div class="twelve columns">
-  <p class="subheader">
-  The portfolio of Joey Li, a Baltimore-based photographer.
-  </p>
-</div>
-
-<div class="container index-navigation">
-  <div class="row index-grid">
-    <div class="index-left">
-      <a href="/people" class="index-link">
-        <img src="/images/people.jpg">
-        <p class="index-link-text">people</p>
-      </a>
-    </div>
-    <div class="index-right">
-      <a href="/places" class="index-link">
-        <img src="/images/places.jpg">
-        <p class="index-link-text">places</p>
-      </a>
-    </div>
-  </div>
+  <input type="text" id="songlist-search" onkeyup="searchSonglist()" placeholder="Search for names..">
+  <table id="songlist" class="u-full-width">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Sex</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dave Gamache</td>
+        <td>26</td>
+        <td>Male</td>
+        <td>San Francisco</td>
+      </tr>
+      <tr>
+        <td>Dwayne Johnson</td>
+        <td>42</td>
+        <td>Male</td>
+        <td>Hayward</td>
+      </tr>
+    </tbody>
+  </table>
 </div>

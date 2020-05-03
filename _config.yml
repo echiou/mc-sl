@@ -1,5 +1,5 @@
 # Site settings
-title: Joey&nbsp;Li&nbsp;Photography
+title: MC-SL
 
 # Build settings
 markdown: kramdown
@@ -7,21 +7,5 @@ permalink: pretty
 
 # collections
 collections:
-  people:
-    output: true
-    permalink: /:collection/:name/
-  places:
-    output: true
-    permalink: /:collection/:name/
 
 defaults:
-  - scope:
-      path: ""
-      type: "people"
-    values:
-      layout: "picture"
-  - scope:
-      path: ""
-      type: "places"
-    values:
-      layout: "picture"
